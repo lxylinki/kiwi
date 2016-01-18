@@ -1,0 +1,13 @@
+{
+  "decision_pool": {}, 
+  "endtime": 0, 
+  "res": 25, 
+  "state": 0, 
+  "pre": {}, 
+  "hostid": "c0", 
+  "id": "w0", 
+  "starttime": 0, 
+  "suc": {
+    "w2": 100
+  }
+}

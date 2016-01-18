@@ -1,0 +1,38 @@
+# a module is a function of its predecessors
+# this is for workload and performance estimation
+functional_expression ="""\
+w5{w3,w4}
+w3{w1}
+w4{w1,w2}
+w2{w0}
+w1{w0}
+w0{}
+"""
+
+# in the order of execution
+# each module schedule all its successors
+functional_expression_forward ="""\
+0{1,2}
+1{3,4}
+2{4}
+3{5}
+4{5}
+"""
+
+# workflow structural expressions
+# TODO: translate between different expressions
+paths_expression = """\
+5,3,1,0
+5,4,1,0
+5,4,2,0
+"""
+# content expressions
+
+# each line is a star graph
+net_struct = """\
+c0(c1,c2,c3,c4)
+c1(c0,c2,c3,c4)
+c2(c0,c1,c3,c4)
+c3(c0,c1,c2,c4)
+c4(c0,c1,c2,c3)
+"""

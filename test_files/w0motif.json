@@ -1,0 +1,35 @@
+{
+  "w2": {
+    "decision_pool": {
+      "w0": "c3", 
+      "w1": "c2"
+    }, 
+    "host_id": null, 
+    "suc": {
+      "w3": 180, 
+      "w4": 400
+    }, 
+    "starttime": 0, 
+    "res": 24, 
+    "state": 0, 
+    "endtime": 0, 
+    "pre": {
+      "w0": 100, 
+      "w1": 200
+    }, 
+    "mod_id": "w2"
+  }, 
+  "w0": {
+    "decision_pool": {}, 
+    "host_id": "c0", 
+    "suc": {
+      "w2": 100
+    }, 
+    "starttime": 0, 
+    "res": 25, 
+    "state": 0, 
+    "endtime": 0, 
+    "pre": {}, 
+    "mod_id": "w0"
+  }
+}

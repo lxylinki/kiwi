@@ -1,0 +1,74 @@
+{
+  "w4": {
+    "pre": {
+      "w2": 400
+    }, 
+    "state": 0, 
+    "mod_id": "w4", 
+    "host_id": null, 
+    "suc": {}, 
+    "starttime": 0, 
+    "res": 64, 
+    "endtime": 0, 
+    "decision_pool": {}
+  }, 
+  "w2": {
+    "pre": {
+      "w0": 100, 
+      "w1": 200
+    }, 
+    "state": 0, 
+    "mod_id": "w2", 
+    "host_id": null, 
+    "suc": {
+      "w4": 400, 
+      "w3": 180
+    }, 
+    "starttime": 0, 
+    "res": 24, 
+    "endtime": 0, 
+    "decision_pool": {
+      "w0": "c3", 
+      "w1": "c2"
+    }
+  }, 
+  "w3": {
+    "pre": {
+      "w2": 180
+    }, 
+    "state": 0, 
+    "mod_id": "w3", 
+    "host_id": null, 
+    "suc": {}, 
+    "starttime": 0, 
+    "res": 20, 
+    "endtime": 0, 
+    "decision_pool": {}
+  }, 
+  "w0": {
+    "pre": {}, 
+    "state": 0, 
+    "mod_id": "w0", 
+    "host_id": "c0", 
+    "suc": {
+      "w2": 100
+    }, 
+    "starttime": 0, 
+    "res": 25, 
+    "endtime": 0, 
+    "decision_pool": {}
+  }, 
+  "w1": {
+    "pre": {}, 
+    "state": 0, 
+    "mod_id": "w1", 
+    "host_id": "c1", 
+    "suc": {
+      "w2": 200
+    }, 
+    "starttime": 0, 
+    "res": 12, 
+    "endtime": 0, 
+    "decision_pool": {}
+  }
+}
